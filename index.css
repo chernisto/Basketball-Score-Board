@@ -40,6 +40,7 @@ body{
     border-radius: 0.625rem;
 }
 
+
 @media only screen and (max-width: 768px){
     .score-board{
         width: 20rem;
@@ -59,7 +60,7 @@ h1{
 
 @media only screen and (max-width: 768px){
     h1{
-        font-size: 2rem;
+        font-size: 1rem;
     }
 }
 
@@ -74,6 +75,13 @@ h1{
     color: #F94F6D;
     font-size: 5.625rem;
     border-radius: 0.313rem;
+}
+
+@media only screen and (max-width: 768px){
+    .score-div{
+        width: 6rem;
+        font-size: 3rem;
+    }
 }
 
 .increment-btns{
@@ -102,4 +110,13 @@ p{
 
 span{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media only screen and (max-width: 768px){
+    .home, .away{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
