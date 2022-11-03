@@ -22,6 +22,14 @@ body{
     color: #EEEEEE;
 }
 
+@media only screen and (max-width: 768px){
+    .main-heading{
+        font-size: 1.4rem;
+        position: absolute;
+        top: 15%;
+    }
+}
+
 .score-board{
     width: 35.9375rem;
     height: 24.0625rem;
@@ -30,6 +38,12 @@ body{
     justify-content: space-around;
     align-items: center;
     border-radius: 0.625rem;
+}
+
+@media only screen and (max-width: 768px){
+    .score-board{
+        width: 20rem;
+    }
 }
 
 h1{
@@ -41,6 +55,12 @@ h1{
     text-transform: uppercase;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media only screen and (max-width: 768px){
+    h1{
+        font-size: 2rem;
+    }
 }
 
 .score-div{
