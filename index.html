@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Board</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="score-board">
+        <div class="home">
+            <h1>Home</h1>
+            <div class="score-div"  id="score-home">0</div>
+            <div class="increment-btns">
+                <button onclick="addOneHome()">+1</button>
+                <button onclick="addTwoHome()">+2</button>
+                <button onclick="addThreeHome()">+3</button>
+                <button onclick="zeroHome()">0</button>
+            </div>
+        </div>
+        <div class="away">
+            <h1>Away</h1>
+            <div class="score-div"  id="score-away">0</div>
+            <div class="increment-btns">
+                <button onclick="addOneAway()">+1</button>
+                <button onclick="addTwoAway()">+2</button>
+                <button onclick="addThreeAway()">+3</button>
+                <button onclick="zeroAway()">0</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
